@@ -43,8 +43,8 @@ function App() {
       return
     }
 
-   
-//BMI=[weight in kg÷(height in cm÷100)]÷(height in cm÷100)
+
+    //BMI=[weight in kg÷(height in cm÷100)]÷(height in cm÷100)
     const answer = (w / (h / 100)) / (h / 100)
 
     setErrorMsg('')
