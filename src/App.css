@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #eccfd8;
+}
+
+.box {
+  max-width: 350px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #d22567;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.row input {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.btns {
+  margin-top: 16px;
+}
+
+.error {
+  font-size: 14px;
+}
+
+.result {
+  margin-top: 16px;
+  text-align: center;
+}
