@@ -43,9 +43,9 @@ function App() {
       return
     }
 
-    // formula needs metres so cm has to be divided by 100
-    const inMeters = h / 100
-    const answer = w / (inMeters * inMeters)
+   
+//BMI=[weight in kg÷(height in cm÷100)]÷(height in cm÷100)
+    const answer = (w / (h / 100)) / (h / 100)
 
     setErrorMsg('')
     setBmiValue(answer)
